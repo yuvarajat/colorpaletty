@@ -1,0 +1,108 @@
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containers {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    background-color: grey;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 30px;
+    margin: auto;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+.logo {
+    width: 400px;
+}
+
+.container-1 span {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(147, 146, 146);
+}
+
+.services {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.service {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.works {
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.work {
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 45vw;
+}
+
+.container-7 img {
+    height: 150px;
+    width: 150px;
+}
